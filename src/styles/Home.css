@@ -1,0 +1,19 @@
+h1 {
+    color: #a0a0a0;
+}
+
+h3 {
+    color: #4d4d4d;
+}
+
+.wrapText img {
+    width: 25%;
+    float: right;
+    margin: 5px;
+}
+
+.wrapText p {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #a0a0a0;
+}
