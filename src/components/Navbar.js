@@ -4,8 +4,6 @@ import '../styles/Navbar.css';
 function navbar({ currentPage, handlePageChange }) {
   return (
     <header>
-      <h1>Craig Putzstuck<span>FULL STACK WEB DEVELOPER</span></h1>
-      
       <ul className="nav">
         <li className="nav-item">
           <a
