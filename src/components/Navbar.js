@@ -4,6 +4,10 @@ import '../styles/Navbar.css';
 function navbar({ currentPage, handlePageChange }) {
   return (
     <header>
+      <h1><a 
+        href="#home"
+        onClick={() => handlePageChange('Home')}
+        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Portfolio</a></h1>
       <ul className="nav">
         <li className="nav-item">
           <a

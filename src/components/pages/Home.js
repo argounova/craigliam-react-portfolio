@@ -6,7 +6,7 @@ const style = {
   card: {
     background: 'linear-gradient(90deg, rgba(0,0,0,0.97) 0%, rgba(10,56,115,1) 68%, rgba(8,12,38,0.97) 100%)',
     width: '50%',
-    height: '100vh',
+    height: '80vh',
     marginLeft: '5%',
     padding: '0.5%'
   }

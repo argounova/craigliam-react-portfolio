@@ -3,6 +3,12 @@ header {
     border-bottom: #080C26 solid 6px;
 }
 
+header h1 {
+    color: #a0a0a0;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
 header ul {
     width: 92vw;
     display: flex;
