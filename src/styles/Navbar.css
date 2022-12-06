@@ -1,10 +1,10 @@
 header {
     background: linear-gradient(90deg, rgba(0,0,0,0.97) 0%, rgba(10,56,115,1) 68%, rgba(8,12,38,0.97) 100%);
-    border-bottom: #0A3873 solid 6px;
+    border-bottom: #080C26 solid 6px;
 }
 
 header ul {
-    width: 85vw;
+    width: 92vw;
     display: flex;
     justify-content: end;
 }

@@ -5,10 +5,9 @@ import Image from '../../images/my-profile-photo.jpg';
 const style = {
   card: {
     background: 'linear-gradient(90deg, rgba(0,0,0,0.97) 0%, rgba(10,56,115,1) 68%, rgba(8,12,38,0.97) 100%)',
-    border: '#0A3873 solid 3px',
     width: '50%',
-    marginTop: '2%',
-    marginLeft: '2%',
+    height: '100vh',
+    marginLeft: '5%',
     padding: '0.5%'
   }
 };
@@ -23,16 +22,9 @@ export default function Home() {
           <img src={Image} alt="Profile Picture"/>
         </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-            velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-            ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-            non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-            ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-            rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-            tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-            porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-            vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus.
+           Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. When I'm not in front of the computer, you can typically find me in the garage trying to make one of my cars shinier or faster than it was the day before. I have an unbridled passion for motorsports and in my second life I am actively pursuing an amateur racing career.
+
+           Cars and computers go hand in hand these days and in the not-so-distant-future, cars will be computers. As a developer with a wealth of automotive knowledge, I seek to position myself at the forefront of such an intersection. I hope to work with innovative, free-thinking, dedicated and diverse individuals who hold progress and global awareness as some of their core values. Ready to get started? I'd love to hear from you.
           </p>
       </div>
     </div>
