@@ -7,9 +7,9 @@ function navbar({ currentPage, handlePageChange }) {
       <ul className="nav">
         <li className="nav-item">
           <a
-            href="#home"
-            onClick={() => handlePageChange('Home')}
-            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+            href="#work"
+            onClick={() => handlePageChange('Work')}
+            className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
           >Work
           </a>
         </li>

@@ -4,7 +4,7 @@ import '../../styles/About.css';
 
 export default function About() {
   return (
-    <div>
+    <div class="contentDiv">
       <h1>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

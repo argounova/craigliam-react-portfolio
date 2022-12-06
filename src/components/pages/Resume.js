@@ -4,7 +4,7 @@ import '../../styles/Resume.css';
 
 export default function Resume() {
   return (
-    <div>
+    <div class="contentDiv">
       <h1>Blog Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
