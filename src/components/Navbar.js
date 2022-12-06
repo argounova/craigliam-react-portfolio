@@ -18,22 +18,22 @@ function navbar({ currentPage, handlePageChange }) {
             href="#about"
             onClick={() => handlePageChange('About')}
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >Resume
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#blog"
-            onClick={() => handlePageChange('Blog')}
-            className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
           >About
           </a>
         </li>
         <li className="nav-item">
           <a
-            href="#contact"
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            href="#resume"
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          >Resume
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#inquire"
+            onClick={() => handlePageChange('Inquire')}
+            className={currentPage === 'Inquire' ? 'nav-link active' : 'nav-link'}
           >Inquire
           </a>
         </li>

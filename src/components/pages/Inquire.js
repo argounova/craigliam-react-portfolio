@@ -1,6 +1,8 @@
 import React from 'react';
+import '../../styles/Inquire.css';
 
-export default function Contact() {
+
+export default function Inquire() {
   return (
     <div>
       <h1>Contact Page</h1>
