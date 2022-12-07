@@ -23,7 +23,7 @@ const style = {
 export default function Work() {
   return (
     <div class="contentDiv">
-      <h1>Contact Page</h1>
+      <h1>Recent Projects</h1>
         <div class="container text-center">
           <div class="row">
             <div class="col">
