@@ -17,7 +17,7 @@ export default function Home() {
     <div style={style.card}>
       <h1>Craig Putzstuck</h1>
       <h3>WEB DEVELOPER</h3>
-      <div class="wrapText">
+      <div className="wrapText">
         <div>
           <img src={Image} alt="Profile Picture"/>
         </div>

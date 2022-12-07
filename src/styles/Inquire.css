@@ -1,0 +1,18 @@
+.contactCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    background-color: #0A3873;
+    border: #080C26 solid 4px;
+    border-radius: 1px;
+    width: 50%;
+    height: 35%;
+}
+
+.btn {
+    width: 100%;
+    background-color: #4d4d4d;
+    color: #eee;
+}

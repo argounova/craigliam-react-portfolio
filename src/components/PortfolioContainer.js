@@ -5,6 +5,8 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Inquire from './pages/Inquire';
 import Work from './pages/Work';
+// import Thanks from './pages/Thanks';
+
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -22,6 +24,9 @@ export default function PortfolioContainer() {
     if (currentPage === 'Work') {
       return <Work />;
     }
+    // if (currentPage === 'Thanks') {
+    //   return <Thanks />;
+    // }
     return <Inquire />;
   };
 
@@ -29,9 +34,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
     </div>
   );
