@@ -1,24 +1,52 @@
 import React from 'react';
 import '../../styles/Work.css';
+import Screenshot1 from '../../assets/weather-dashboard-screenshot.png';
 
+const style = {
+  sizeL: {
+    maxWidth: '1000px',
+  },
+  sizeM: {
+    maxWidth: '600px',
+  },
+  sizeS: {
+    maxWidth: '400px',
+  }
+}
 
 export default function Work() {
   return (
     <div class="contentDiv">
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <a href="https://argounova.github.io/weather-dashboard/" target="_blank">
+              <img src={Screenshot1} style={style.sizeL}/></a>
+              <a href="https://github.com/argounova/weather-dashboard" target="_blank">
+              Weather Dashboard Repository</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              1 of 2
+            </div>
+            <div class="col">
+              2 of 2
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              1 of 3
+            </div>
+            <div class="col">
+              2 of 3
+            </div>
+            <div class="col">
+              3 of 3
+            </div>
+          </div>
+        </div>
     </div>
   );
 }
