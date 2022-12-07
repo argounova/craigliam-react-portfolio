@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/Inquire.css';
+import { validateEmail } from '../../utils/helpers';
 
 
 function Form() {
