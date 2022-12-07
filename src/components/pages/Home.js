@@ -14,20 +14,31 @@ const style = {
 
 export default function Home() {
   return (
-    <div style={style.card}>
-      <h1>Craig Putzstuck</h1>
-      <h3>WEB DEVELOPER</h3>
-      <div className="wrapText">
-        <div>
-          <img src={Image} alt="Profile Picture"/>
+    <section>
+      <div style={style.card}>
+        <h1>Craig Putzstuck</h1>
+        <h3>WEB DEVELOPER</h3>
+        <div className="wrapText">
+          <div>
+            <img src={Image} alt="Profile Picture"/>
+          </div>
+            <p>
+            Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. Currently enrolled in an in-depth MERN bootcamp at the University of Central Florida, I've been supremely focused on advancing my understanding of everything from HTML and CSS to MongoDB, Apollo and mySQL. 
+            <br/>
+            <br/>
+            Originally from Colorado, I currently live off the western coast of Florida about an hour north of Tampa Bay. My partner and I enjoy exploring Florida, cooking and spending time with our pets. When I'm not in front of the computer, you can typically find me in the garage tinkering with one of my cars. I have a passion for motorsports and enjoy NASA track days at Sebring as often as time allows.
+            </p>
         </div>
-          <p>
-           Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. Currently enrolled in an in-depth MERN bootcamp at the University of Central Florida, I've been supremely focused on advancing my understanding of everything from HTML and CSS to MongoDB, Apollo and mySQL. 
-           <br/>
-           <br/>
-           Originally from Colorado, I currently live off the western coast of Florida about an hour north of Tampa Bay. My partner and I enjoy exploring Florida, cooking and spending time with our pets. When I'm not in front of the computer, you can typically find me in the garage tinkering with one of my cars. I have a passion for motorsports and enjoy NASA track days at Sebring as often as time allows.
-          </p>
       </div>
-    </div>
+        <footer>
+          <ul>
+              <li><a href="mailto:putzstuck@gmail.com">Email Me</a></li>
+              <li><a href="https://github.com/argounova" target="_blank">GitHub</a></li>
+              <li><a href="https://www.facebook.com/craig.putzstuck.5" target="_blank">Facebook</a></li>
+              <li><a href="https://twitter.com/CraigPutzstuck" target="_blank">Twitter</a></li>
+              <li><a href="https://www.instagram.com/mx5craig/" target="_blank">Instagram</a></li>
+          </ul>
+        </footer>
+    </section>
   );
 }
