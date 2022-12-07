@@ -7,7 +7,8 @@ function navbar({ currentPage, handlePageChange }) {
       <h1><a 
         href="#home"
         onClick={() => handlePageChange('Home')}
-        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Portfolio</a></h1>
+        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Portfolio<p>CRAIG PUTZSTUCK</p></a></h1>
+      
       <ul className="nav">
         <li className="nav-item">
           <a

@@ -1,16 +1,16 @@
 import React from 'react';
 import '../../styles/Inquire.css';
 
-// const style = {
-//   align: {
-//     paddingTop: '5%'
-//   }
-// }
+const style = {
+  align: {
+    paddingTop: '5%'
+  }
+}
 
 export default function Inquire() {
   return (
     <section>
-      <div class="contentDiv">
+      <div class="contentDiv" style={style.align}>
         <div class="contactCard">
           <h1>Contact Me</h1>
           <div class="input-group mb-3">
@@ -28,15 +28,15 @@ export default function Inquire() {
           <button type="button" class="btn btn-light">Submit</button>
         </div>
       </div>
-        <footer>
-          <ul>
-            <li><a href="mailto:putzstuck@gmail.com">Email Me</a></li>
-            <li><a href="https://github.com/argounova" target="_blank">GitHub</a></li>
-            <li><a href="https://www.facebook.com/craig.putzstuck.5" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/CraigPutzstuck" target="_blank">Twitter</a></li>
-            <li><a href="https://www.instagram.com/mx5craig/" target="_blank">Instagram</a></li>
-          </ul>
-        </footer>
+      <footer>
+        <ul>
+          <li><a href="mailto:putzstuck@gmail.com">Email Me</a></li>
+          <li><a href="https://github.com/argounova" target="_blank">GitHub</a></li>
+          <li><a href="https://www.facebook.com/craig.putzstuck.5" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/CraigPutzstuck" target="_blank">Twitter</a></li>
+          <li><a href="https://www.instagram.com/mx5craig/" target="_blank">Instagram</a></li>
+        </ul>
+      </footer>
     </section>
   );
 }
