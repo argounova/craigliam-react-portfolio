@@ -24,5 +24,5 @@ h3 {
     align-items: center;
     background: linear-gradient(90deg, rgba(0,0,0,0.92) 0%, rgba(10,56,115,0.97) 28%, rgba(8,12,38,0.92) 100%);
     width: 100%;
-    height: 100vh;
+    min-height: fit-content;
 }
