@@ -5,7 +5,6 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Inquire from './pages/Inquire';
 import Work from './pages/Work';
-// import Thanks from './pages/Thanks';
 
 
 export default function PortfolioContainer() {
@@ -24,9 +23,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'Work') {
       return <Work />;
     }
-    // if (currentPage === 'Thanks') {
-    //   return <Thanks />;
-    // }
     return <Inquire />;
   };
 
