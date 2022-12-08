@@ -44,9 +44,8 @@ function Inquire() {
   return (
     <section>
       <div class="contentDiv" style={style.align}>
-        <div class="contactCard">
           <h1>Contact Me</h1>
-          <form className="form">
+          <form className="form" class="contactCard">
             <input
               value={formName}
               name="formName"
@@ -61,7 +60,7 @@ function Inquire() {
               type="email"
               placeholder="Email"
             />
-            <input
+            <textarea
               value={formMessage}
               name="formMessage"
               onChange={handleFormChange}
@@ -75,7 +74,6 @@ function Inquire() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-        </div>
       </div>
       <footer>
         <ul>
