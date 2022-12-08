@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/craigliam-react-portfolio/static/css/main.37644044.css",
+    "main.js": "/craigliam-react-portfolio/static/js/main.a175fc7a.js",
+    "static/media/weather-dashboard.png": "/craigliam-react-portfolio/static/media/weather-dashboard.290eca3000ca340a694f.png",
+    "static/media/my-profile-photo.jpg": "/craigliam-react-portfolio/static/media/my-profile-photo.79e9e32788dc4d16e663.jpg",
+    "static/media/speakeasy.jpg": "/craigliam-react-portfolio/static/media/speakeasy.9ed42c0e6957af6b3fe4.jpg",
+    "static/media/mtg.jpg": "/craigliam-react-portfolio/static/media/mtg.e11cc9aa0014f92b6aae.jpg",
+    "static/media/coding-quiz.jpg": "/craigliam-react-portfolio/static/media/coding-quiz.3cbdae966c36892c1dfc.jpg",
+    "static/media/current-resume.pdf": "/craigliam-react-portfolio/static/media/current-resume.19fa81f4a315e3055139.pdf",
+    "static/media/password-generator.jpg": "/craigliam-react-portfolio/static/media/password-generator.d470674be15c317bb5ec.jpg",
+    "static/media/work-day-scheduler.jpg": "/craigliam-react-portfolio/static/media/work-day-scheduler.995d03e1807db9777061.jpg",
+    "index.html": "/craigliam-react-portfolio/index.html",
+    "main.37644044.css.map": "/craigliam-react-portfolio/static/css/main.37644044.css.map",
+    "main.a175fc7a.js.map": "/craigliam-react-portfolio/static/js/main.a175fc7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37644044.css",
+    "static/js/main.a175fc7a.js"
+  ]
+}
