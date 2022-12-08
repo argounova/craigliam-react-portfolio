@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import '../../styles/Inquire.css';
 import { validateEmail } from '../../utils/helpers';
 
@@ -13,15 +14,16 @@ function Inquire() {
   const [formEmail, setFormEmail] = useState('');
   const [formMessage, setFormMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const form = useRef();
 
   const handleFormChange = (e) => {
     const { target } = e;
     const formType = target.name;
     const formValue = target.value;
 
-    if (formType === 'formName') {
+    if (formType === 'from_name') {
       setFormName(formValue);
-    } else if (formType === 'formEmail') {
+    } else if (formType === 'reply_to') {
       setFormEmail(formValue);
     } else {
       setFormMessage(formValue);
@@ -35,7 +37,10 @@ function Inquire() {
       return;
     }
 
+    emailjs.sendForm('service_peaz7nq', 'template_iuipk7c', form.current, 'ZElOBNy_cU2ZofiP0');
+
     alert(`Thanks for reaching out ${formName}! Please allow 1-2 business days for a response.`);
+
     setFormName('');
     setFormEmail('');
     setFormMessage('');
@@ -45,24 +50,24 @@ function Inquire() {
     <section>
       <div class="contentDiv" style={style.align}>
           <h1>Contact Me</h1>
-          <form className="form" class="contactCard">
+          <form className="form" class="contactCard" ref={form}>
             <input
               value={formName}
-              name="formName"
+              name="from_name"
               onChange={handleFormChange}
               type="text"
               placeholder="Name"
             />
             <input
               value={formEmail}
-              name="formEmail"
+              name="reply_to"
               onChange={handleFormChange}
               type="email"
               placeholder="Email"
             />
             <textarea
               value={formMessage}
-              name="formMessage"
+              name="message"
               onChange={handleFormChange}
               type="text"
               placeholder="Message"
