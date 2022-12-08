@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../styles/Inquire.css';
 import { validateEmail } from '../../utils/helpers';
 
+const style = {
+  align: {
+    paddingTop: '5%'
+  }
+}
 
-function Form() {
+function Inquire() {
   const [formName, setFormName] = useState('');
   const [formEmail, setFormEmail] = useState('');
   const [formMessage, setFormMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleFormChange = (e) => {
     const { target } = e;
@@ -15,7 +21,7 @@ function Form() {
 
     if (formType === 'formName') {
       setFormName(formValue);
-    } else if (inputType === 'formEmail') {
+    } else if (formType === 'formEmail') {
       setFormEmail(formValue);
     } else {
       setFormMessage(formValue);
@@ -35,55 +41,53 @@ function Form() {
     setFormMessage('');
   };
 
-  render() {
-    return (
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          Essay:
-          <textarea value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
-    );
-  }
+  return (
+    <section>
+      <div class="contentDiv" style={style.align}>
+        <div class="contactCard">
+          <h1>Contact Me</h1>
+          <form className="form">
+            <input
+              value={formName}
+              name="formName"
+              onChange={handleFormChange}
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              value={formEmail}
+              name="formEmail"
+              onChange={handleFormChange}
+              type="email"
+              placeholder="Email"
+            />
+            <input
+              value={formMessage}
+              name="formMessage"
+              onChange={handleFormChange}
+              type="text"
+              placeholder="Message"
+            />
+          <button type="button" class="btn btn-light" onClick={handleFormSubmit}>Submit</button>
+          </form>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+        </div>
+      </div>
+      <footer>
+        <ul>
+          <li><a href="mailto:putzstuck@gmail.com">Email Me</a></li>
+          <li><a href="https://github.com/argounova" target="_blank">GitHub</a></li>
+          <li><a href="https://www.facebook.com/craig.putzstuck.5" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/CraigPutzstuck" target="_blank">Twitter</a></li>
+          <li><a href="https://www.instagram.com/mx5craig/" target="_blank">Instagram</a></li>
+        </ul>
+      </footer>
+    </section>
+  );
 }
 
-// const style = {
-//   align: {
-//     paddingTop: '5%'
-//   }
-// }
-
-// export default function Inquire() {
-//   return (
-//     <section>
-//       <div class="contentDiv" style={style.align}>
-//         <div class="contactCard">
-//           <h1>Contact Me</h1>
-//           <div class="input-group mb-3">
-//             <span class="input-group-text" id="inputGroup-sizing-default">Your Name</span>
-//             <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
-//           </div>
-//           <div class="input-group mb-3">
-//             <span class="input-group-text" id="inputGroup-sizing-default">Your Email</span>
-//             <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
-//           </div>
-//           <div class="input-group">
-//             <span class="input-group-text">Your Message</span>
-//             <textarea class="form-control" aria-label="With textarea"></textarea>
-//           </div>
-//           <button type="button" class="btn btn-light">Submit</button>
-//         </div>
-//       </div>
-//       <footer>
-//         <ul>
-//           <li><a href="mailto:putzstuck@gmail.com">Email Me</a></li>
-//           <li><a href="https://github.com/argounova" target="_blank">GitHub</a></li>
-//           <li><a href="https://www.facebook.com/craig.putzstuck.5" target="_blank">Facebook</a></li>
-//           <li><a href="https://twitter.com/CraigPutzstuck" target="_blank">Twitter</a></li>
-//           <li><a href="https://www.instagram.com/mx5craig/" target="_blank">Instagram</a></li>
-//         </ul>
-//       </footer>
-//     </section>
-//   );
-// }
+export default Inquire;
