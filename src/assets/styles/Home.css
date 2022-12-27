@@ -11,7 +11,7 @@ h3 {
 }
 
 body {
-    background-image: url('../../public/background-grad1.jpg');
+    background-image: url('../../../public/background-grad1.jpg');
     background-size: cover;
     min-height: 100vh;
 }

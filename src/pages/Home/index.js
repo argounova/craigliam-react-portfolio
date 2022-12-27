@@ -27,7 +27,7 @@ export default function Home() {
         <h3>WEB DEVELOPER</h3>
         <div className="wrapText">
           <div>
-            <img src={Image} alt="Profile Picture"/>
+            <img src={Image} alt="profile"/>
           </div>
             <p>
             Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. Currently enrolled in an in-depth MERN bootcamp at the University of Central Florida, I've been supremely focused on advancing my understanding of everything from HTML and CSS to MongoDB, Apollo and mySQL. 
