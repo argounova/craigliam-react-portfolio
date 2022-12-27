@@ -6,13 +6,18 @@ h3 {
     color: #4d4d4d;
 }
 
+body {
+    background-image: url('../../public/background-grad1.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
 footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(10,56,115,0.98) 30%, rgba(8,12,38,1) 100%);
-    border-top: #080C26 solid 6px;
+    background: rgb(0,0,0);
     height: 80px;
     width: 100%;
 }
@@ -41,14 +46,15 @@ footer ul a {
 .wrapText p {
     text-align: justify;
     font-size: 1.5rem;
-    color: #a0a0a0;
+    color: #c0c0c0;
 }
 
 .contentDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(90deg, rgba(0,0,0,0.92) 0%, rgba(10,56,115,0.97) 28%, rgba(8,12,38,0.92) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(44,22,89,0.8) 9%, rgba(31,109,140,0.6) 34%, rgba(44,22,89,0.8) 58%, rgba(0,0,0,1) 98%);
     width: 100%;
     min-height: 100vh;
     height: fit-content;
