@@ -1,48 +1,38 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import '../assets/styles/Navbar.css';
 
-function navbar({ currentPage, handlePageChange }) {
+function navbar({ __, handlePageChange }) {
   return (
     <header>
-      <h1><a 
-        href="#home"
-        onClick={() => handlePageChange('Home')}
-        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Portfolio</a></h1>
-      
-      <ul className="nav">
-        <li className="nav-item">
-          <a
-            href="#work"
-            onClick={() => handlePageChange('Work')}
-            className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
-          >Work
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#about"
-            onClick={() => handlePageChange('About')}
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#resume"
-            onClick={() => handlePageChange('Resume')}
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-          >Resume
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#inquire"
-            onClick={() => handlePageChange('Inquire')}
-            className={currentPage === 'Inquire' ? 'nav-link active' : 'nav-link'}
-          >Inquire
-          </a>
-        </li>
-      </ul>
+      <Navbar collapseOnSelect expand="lg" variant="dark">
+        <Container>
+          <Navbar.Brand
+            onClick={() => handlePageChange('Home')}
+            href="#home">PORTFOLIO</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+            </Nav>
+            <Nav activeKey={'#home'}>
+              <Nav.Link
+                onClick={() => handlePageChange('Work')} 
+                eventKey="#work">Work</Nav.Link>
+              <Nav.Link
+                onClick={() => handlePageChange('About')} 
+                eventKey="#about">About</Nav.Link>
+              <Nav.Link 
+                onClick={() => handlePageChange('Resume')}
+                eventKey="#resume">Resume</Nav.Link>
+              <Nav.Link 
+                onClick={() => handlePageChange('Inquire')}
+                eventKey="#inquire">Inquire</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </header>
   );
 }

@@ -5,24 +5,13 @@ header {
     font-family: 'Prosto One', cursive;
 }
 
-header h1 {    
-    padding-top: 1%;
-    padding-left: 1%;
-}
-
-header ul {
-    width: 92vw;
-    display: flex;
-    justify-content: flex-end;
-}
-
 .nav-item {
     font-family: 'Prosto One', cursive;
     font-size: 1.5rem;
-    padding: 0 2.5%;
+    padding: 0 15px;
 }
 
-.nav-item a {
+.nav-item {
     color: #04BFAD;
     text-shadow: 4px 1px 6px #F06BF2;
 }
