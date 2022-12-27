@@ -4,8 +4,7 @@ import Image from '../../assets/images/my-profile-photo.jpg';
 
 const style = {
   card: {
-    background: 'rgb(0,0,0,0.9)',
-    // background: 'linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(44,22,89,1) 58%, rgba(0,0,0,1) 98%)',
+    background: 'linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(44,22,89,1) 58%, rgba(0,0,0,1) 98%)',
     width: '50%',
     height: 'fit-content',
     marginLeft: '5%',

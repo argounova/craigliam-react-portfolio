@@ -11,7 +11,7 @@ function navbar({ __, handlePageChange }) {
         <Container>
           <Navbar.Brand
             onClick={() => handlePageChange('Home')}
-            href="#home">PORTFOLIO</Navbar.Brand>
+            href="#home">CP | Developer</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
