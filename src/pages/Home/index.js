@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/Home.css';
-import Image from '../../images/my-profile-photo.jpg';
+import '../../assets/styles/Home.css';
+import Image from '../../assets/images/my-profile-photo.jpg';
 
 const style = {
   card: {

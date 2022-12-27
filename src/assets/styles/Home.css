@@ -16,31 +16,6 @@ body {
     min-height: 100vh;
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: rgb(0,0,0);
-    height: 80px;
-    width: 100%;
-}
-
-footer ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-type: none;
-    width: 50%;
-}
-
-footer ul a {
-    text-decoration: none;
-    color: #4d4d4d;
-    font-size: 20px;
-}
-
 .wrapText img {
     width: 25%;
     float: right;

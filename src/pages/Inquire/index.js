@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import '../../styles/Inquire.css';
+import '../../assets/styles/Inquire.css';
 import { validateEmail } from '../../utils/helpers';
 
 const style = {
