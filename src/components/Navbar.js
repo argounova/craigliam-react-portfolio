@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Navbar.css';
+import '../assets/styles/Navbar.css';
 
 function navbar({ currentPage, handlePageChange }) {
   return (
