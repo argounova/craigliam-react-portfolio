@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/About.css';
-import Image from '../../images/my-profile-photo.jpg';
+import '../../assets/styles/About.css';
+import Image from '../../assets/images/my-profile-photo.jpg';
 
 const style = {
   para: {
@@ -16,7 +16,7 @@ export default function About() {
         <h3>MERN FULL STACK WEB DEVELOPER</h3>
         <div className="wrapText">
           <div>
-            <img src={Image} style={style.para}/>
+            <img src={Image} style={style.para} alt="profile"/>
           </div>
             <p style={style.para}>
               I have always maintained a curious mind and a desire to see projects through to fruition. While cars and racing have held my interests hostage for the most part, architecture, 3D modeling and wood working have also held sway. It was somewhat natural then to transition into web development as technology progressed and the realization that the architecture of the future lies in code. As an analytical individual planning and design are ingrained in my DNA which has allowed JavaScript to become a very rewarding aspect of my life.
@@ -29,15 +29,6 @@ export default function About() {
             </p>
           </div>
         </div>
-      <footer>
-          <ul>
-              <li><a href="mailto:putzstuck@gmail.com">Email Me</a></li>
-              <li><a href="https://github.com/argounova" target="_blank">GitHub</a></li>
-              <li><a href="https://www.facebook.com/craig.putzstuck.5" target="_blank">Facebook</a></li>
-              <li><a href="https://twitter.com/CraigPutzstuck" target="_blank">Twitter</a></li>
-              <li><a href="https://www.instagram.com/mx5craig/" target="_blank">Instagram</a></li>
-          </ul>
-      </footer>
     </section>
   );
 }

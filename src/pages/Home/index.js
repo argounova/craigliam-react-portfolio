@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../styles/Home.css';
-import Image from '../../images/my-profile-photo.jpg';
+import '../../assets/styles/Home.css';
+import Image from '../../assets/images/my-profile-photo.jpg';
 
 const style = {
   card: {
-    background: 'linear-gradient(90deg, rgba(0,0,0,0.97) 0%, rgba(10,56,115,1) 68%, rgba(8,12,38,0.97) 100%)',
+    background: 'linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(44,22,89,1) 58%, rgba(0,0,0,1) 98%)',
     width: '50%',
     height: 'fit-content',
     marginLeft: '5%',
@@ -26,7 +26,7 @@ export default function Home() {
         <h3>WEB DEVELOPER</h3>
         <div className="wrapText">
           <div>
-            <img src={Image} alt="Profile Picture"/>
+            <img src={Image} alt="profile"/>
           </div>
             <p>
             Welcome and thanks for stopping by! Here you will find examples of my most recent work, but first, allow me to introduce myself. I am a full stack JavaScript web developer and simply put, I build web applications. Currently enrolled in an in-depth MERN bootcamp at the University of Central Florida, I've been supremely focused on advancing my understanding of everything from HTML and CSS to MongoDB, Apollo and mySQL. 
@@ -37,15 +37,6 @@ export default function Home() {
         </div>
       </div>
       </div>
-        <footer>
-          <ul>
-              <li><a href="mailto:putzstuck@gmail.com">Email Me</a></li>
-              <li><a href="https://github.com/argounova" target="_blank">GitHub</a></li>
-              <li><a href="https://www.facebook.com/craig.putzstuck.5" target="_blank">Facebook</a></li>
-              <li><a href="https://twitter.com/CraigPutzstuck" target="_blank">Twitter</a></li>
-              <li><a href="https://www.instagram.com/mx5craig/" target="_blank">Instagram</a></li>
-          </ul>
-        </footer>
     </section>
   );
 }
