@@ -1,9 +1,13 @@
 h1 {
-    color: #a0a0a0;
+    font-family: 'Prosto One', cursive;
+    color: #c0c0c0;
+    /* text-shadow: 4px 1px 4px #F06BF2; */
 }
 
 h3 {
-    color: #4d4d4d;
+    font-family: 'Prosto One', cursive;
+    color: #04BFAD;
+    text-shadow: 4px 1px 6px #F06BF2;
 }
 
 body {
