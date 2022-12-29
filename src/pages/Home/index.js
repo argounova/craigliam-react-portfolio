@@ -4,10 +4,11 @@ import Image from '../../assets/images/my-profile-photo.jpg';
 
 const style = {
   card: {
-    background: 'linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(44,22,89,1) 58%, rgba(0,0,0,1) 98%)',
+    background: 'linear-gradient(90deg, rgba(0,0,0,0.0) 0%, rgba(44,22,89,1) 58%, rgba(0,0,0,0.0) 100%)',
     width: '50%',
     height: 'fit-content',
-    marginLeft: '5%',
+    marginLeft: '3%',
+    marginTop: '3%',
     padding: '0.5%'
   },
   minHeight: {
