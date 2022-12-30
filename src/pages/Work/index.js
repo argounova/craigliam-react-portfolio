@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 import '../../assets/styles/Work.css';
 import Screenshot1 from '../../assets/images/weather-dashboard.png';
 import Screenshot2 from '../../assets/images/mtg.jpg';
@@ -8,72 +9,100 @@ import Screenshot5 from '../../assets/images/coding-quiz.jpg';
 import Screenshot6 from '../../assets/images/work-day-scheduler.jpg';
 
 
-const style = {
-  sizeL: {
-    maxWidth: '1000px',
-  },
-  sizeM: {
-    maxWidth: '600px',
-  },
-  sizeS: {
-    maxWidth: '400px',
-  },
-}
+// const style = {
+//   sizeL: {
+//     maxWidth: '1000px',
+//   },
+//   sizeM: {
+//     maxWidth: '600px',
+//   },
+//   sizeS: {
+//     maxWidth: '400px',
+//   },
+// }
 
-export default function Work() {
+function Work() {
   return (
-    <section>
-      <div class="contentDiv">
-        <h1>Recent Projects</h1>
-          <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <a href="https://argounova.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
-                <img src={Screenshot1} style={style.sizeL} alt="weather-dashboard" /></a>
-                <a href="https://github.com/argounova/weather-dashboard" target="_blank" rel="noreferrer">
-                Weather Dashboard Repository</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <a href="https://peaceful-escarpment-11973.herokuapp.com/" target="_blank" rel="noreferrer">
-                <img src={Screenshot2} style={style.sizeL} alt="magic-the-gathering" /></a>
-                <a href="https://github.com/HammontreeWebDev/MTGpp" target="_blank" rel="noreferrer">
-                MTG: Deck Creation Repository</a>            
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <a href="https://jkanvision.github.io/The-SpeakEasy-Project/" target="_blank" rel="noreferrer">
-                <img src={Screenshot3} style={style.sizeL} alt="speakeasy-project" /></a>
-                <a href="https://github.com/jkanvision/The-SpeakEasy-Project" target="_blank" rel="noreferrer">
-                The Speakeasy Project Repository</a>            
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <a href="https://argounova.github.io/code-quiz/" target="_blank" rel="noreferrer">
-                <img src={Screenshot5} style={style.sizeL} alt="coding-quiz" /></a>
-                <a href="https://github.com/argounova/code-quiz" target="_blank" rel="noreferrer">
-                Coding Quiz Repository</a>            
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <a href="https://argounova.github.io/password-generator/" target="_blank" rel="noreferrer">
-                <img src={Screenshot4} style={style.sizeM} alt="password-generator-application" /></a>
-                <a href="https://github.com/argounova/password-generator" target="_blank" rel="noreferrer">
-                Password Generator Repository</a>            
-              </div>
-              <div class="col">
-                <a href="https://argounova.github.io/day-planner/" target="_blank" rel="noreferrer">
-                <img src={Screenshot6} style={style.sizeM} alt="day-planner" /></a>
-                <a href="https://github.com/argounova/day-planner" target="_blank" rel="noreferrer">
-                Work Day Planner Repository</a>            
-              </div>
-            </div>
-          </div>
-      </div>
-</section>
+    <div
+      style={{ margin: '3% auto', width: '75%' }}
+    >
+      <Carousel 
+        fade
+        style={{ border: 'solid #000 5px' }}
+      >
+        <Carousel.Item>
+          <a href="https://argounova.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
+          <img
+            className='d-block w-100'
+            src={Screenshot1}
+            alt='First slide - Weather Dashboard'
+          />
+          </a>
+          <Carousel.Caption>
+            <a href="https://github.com/argounova/weather-dashboard" target="_blank" rel="noreferrer" style={{ textDecorationLine: 'none' }}>
+              <h1 style={{ backgroundColor: '#000', color: '#04BFAD'}}>GitHub Repository</h1>
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+
+
+
+//     <section>
+//       <div class="contentDiv">
+//         <h1>Recent Projects</h1>
+//           <div class="container text-center">
+//             <div class="row">
+//               <div class="col">
+//                 <a href="https://argounova.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
+//                 <img src={Screenshot1} style={style.sizeL} alt="weather-dashboard" /></a>
+//                 <a href="https://github.com/argounova/weather-dashboard" target="_blank" rel="noreferrer">
+//                 Weather Dashboard Repository</a>
+//               </div>
+//             </div>
+//             <div class="row">
+//               <div class="col">
+//                 <a href="https://peaceful-escarpment-11973.herokuapp.com/" target="_blank" rel="noreferrer">
+//                 <img src={Screenshot2} style={style.sizeL} alt="magic-the-gathering" /></a>
+//                 <a href="https://github.com/HammontreeWebDev/MTGpp" target="_blank" rel="noreferrer">
+//                 MTG: Deck Creation Repository</a>            
+//               </div>
+//             </div>
+//             <div class="row">
+//               <div class="col">
+//                 <a href="https://jkanvision.github.io/The-SpeakEasy-Project/" target="_blank" rel="noreferrer">
+//                 <img src={Screenshot3} style={style.sizeL} alt="speakeasy-project" /></a>
+//                 <a href="https://github.com/jkanvision/The-SpeakEasy-Project" target="_blank" rel="noreferrer">
+//                 The Speakeasy Project Repository</a>            
+//               </div>
+//             </div>
+//             <div class="row">
+//               <div class="col">
+//                 <a href="https://argounova.github.io/code-quiz/" target="_blank" rel="noreferrer">
+//                 <img src={Screenshot5} style={style.sizeL} alt="coding-quiz" /></a>
+//                 <a href="https://github.com/argounova/code-quiz" target="_blank" rel="noreferrer">
+//                 Coding Quiz Repository</a>            
+//               </div>
+//             </div>
+//             <div class="row">
+//               <div class="col">
+//                 <a href="https://argounova.github.io/password-generator/" target="_blank" rel="noreferrer">
+//                 <img src={Screenshot4} style={style.sizeM} alt="password-generator-application" /></a>
+//                 <a href="https://github.com/argounova/password-generator" target="_blank" rel="noreferrer">
+//                 Password Generator Repository</a>            
+//               </div>
+//               <div class="col">
+//                 <a href="https://argounova.github.io/day-planner/" target="_blank" rel="noreferrer">
+//                 <img src={Screenshot6} style={style.sizeM} alt="day-planner" /></a>
+//                 <a href="https://github.com/argounova/day-planner" target="_blank" rel="noreferrer">
+//                 Work Day Planner Repository</a>            
+//               </div>
+//             </div>
+//           </div>
+//       </div>
+// </section>
   );
 }
+
+export default Work;
