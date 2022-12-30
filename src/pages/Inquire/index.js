@@ -2,6 +2,8 @@ import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import '../../assets/styles/Inquire.css';
 import { validateEmail } from '../../utils/helpers';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 const style = {
   align: {
@@ -15,6 +17,7 @@ function Inquire() {
   const [formMessage, setFormMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const form = useRef();
+
 
   const handleFormChange = (e) => {
     const { target } = e;
@@ -39,15 +42,35 @@ function Inquire() {
 
     emailjs.sendForm('service_peaz7nq', 'template_iuipk7c', form.current, 'ZElOBNy_cU2ZofiP0');
 
-    alert(`Thanks for reaching out ${formName}! Please allow 1-2 business days for a response.`);
-
+    // alert(`Thanks for reaching out ${formName}! Please allow 1-2 business days for a response.`);
+    handleShow();
     setFormName('');
     setFormEmail('');
     setFormMessage('');
   };
 
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
   return (
     <section>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal heading</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
       <div class="contentDiv" style={style.align}>
           <h1>Contact Me</h1>
           <form className="form" class="contactCard" ref={form}>
