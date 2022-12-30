@@ -56,17 +56,17 @@ function Inquire() {
   return (
     <section>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal
+        show={show} 
+        onHide={handleClose}
+      >
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Message Sent!</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>Thank you for contacting me.  Please allow 1-2 business days for a response.</Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
+          <Button variant="dark" onClick={handleClose}>
+            OK
           </Button>
         </Modal.Footer>
       </Modal>
