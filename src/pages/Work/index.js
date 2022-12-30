@@ -6,7 +6,7 @@ import Screenshot2 from '../../assets/images/mtg.jpg';
 import Screenshot3 from '../../assets/images/speakeasy.jpg';
 import Screenshot4 from '../../assets/images/password-generator.png';
 import Screenshot6 from '../../assets/images/work-day-scheduler.jpg';
-import Screenshot7 from '../../assets/images/outta-touch-app.jpg';
+import Screenshot7 from '../../assets/images/outta-touch-ss.png';
 
 function Work() {
   return (
@@ -14,7 +14,7 @@ function Work() {
       className='contentDiv'
     >
       <div
-        style={{ margin: '3% auto', width: '75%' }}
+        style={{ margin: '3% auto', width: '90%' }}
       >
         <Carousel 
           fade
@@ -29,8 +29,8 @@ function Work() {
               />
             </a>
             <Carousel.Caption>
-              <a href='https://github.com/argounova/outta-touch' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
-                <h1 style={{ backgroundColor: '#000', color: '#04BFAD'}}>GitHub Repository</h1>
+              <a href='https://github.com/argounova/outta-touch' target='_blank' rel='noreferrer' style={{ textDecorationColor: '#f0f0f0', textUnderlineOffset: '5px' }}>
+                <h3 style={{ color: '#f0f0f0' }}>View GitHub Repository</h3>
               </a>
             </Carousel.Caption>
           </Carousel.Item>
