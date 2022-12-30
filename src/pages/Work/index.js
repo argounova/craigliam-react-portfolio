@@ -10,9 +10,10 @@ import Screenshot7 from '../../assets/images/outta-touch-app.jpg';
 
 function Work() {
   return (
-    <section>
+    <section         
+      className='contentDiv'
+    >
       <div
-        className='contentDiv'
         style={{ margin: '3% auto', width: '75%' }}
       >
         <Carousel 
@@ -28,7 +29,7 @@ function Work() {
               />
             </a>
             <Carousel.Caption>
-              <a href='https://github.com/argounova/outta-touch' target='_blank' rel='noreferrer'>
+              <a href='https://github.com/argounova/outta-touch' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
                 <h1 style={{ backgroundColor: '#000', color: '#04BFAD'}}>GitHub Repository</h1>
               </a>
             </Carousel.Caption>
@@ -56,7 +57,7 @@ function Work() {
               />
             </a>
             <Carousel.Caption>
-              <a href='https://github.com/HammontreeWebDev/MTGpp' target='_blank' rel='noreferrer'>
+              <a href='https://github.com/HammontreeWebDev/MTGpp' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
                 <h1 style={{ backgroundColor: '#000', color: '#04BFAD'}}>GitHub Repository</h1>
               </a>
             </Carousel.Caption>
@@ -70,7 +71,7 @@ function Work() {
               />
             </a>
             <Carousel.Caption>
-              <a href='https://github.com/argounova/password-generator' target='_blank' rel='noreferrer'>
+              <a href='https://github.com/argounova/password-generator' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
                 <h1 style={{ backgroundColor: '#000', color: '#04BFAD'}}>GitHub Repository</h1>
               </a>
             </Carousel.Caption>
@@ -84,7 +85,7 @@ function Work() {
               />
             </a>
             <Carousel.Caption>
-              <a href='https://github.com/jkanvision/The-SpeakEasy-Project' target='_blank' rel='noreferrer'>
+              <a href='https://github.com/jkanvision/The-SpeakEasy-Project' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
                 <h1 style={{ backgroundColor: '#000', color: '#04BFAD'}}>GitHub Repository</h1>
               </a>
             </Carousel.Caption>
@@ -98,7 +99,7 @@ function Work() {
               />
             </a>
             <Carousel.Caption>
-              <a href='https://github.com/argounova/day-planner' target='_blank' rel='noreferrer'>
+              <a href='https://github.com/argounova/day-planner' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
                 <h1 style={{ backgroundColor: '#000', color: '#04BFAD'}}>GitHub Repository</h1>
               </a>
             </Carousel.Caption>
