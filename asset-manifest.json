@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/craigliam-react-portfolio/static/css/main.00896e26.css",
-    "main.js": "/craigliam-react-portfolio/static/js/main.943135b4.js",
+    "main.css": "/craigliam-react-portfolio/static/css/main.3fe3d00e.css",
+    "main.js": "/craigliam-react-portfolio/static/js/main.6f3093ed.js",
     "static/media/background-grad1.jpg": "/craigliam-react-portfolio/static/media/background-grad1.c581d2d75b86e4634c6e.jpg",
-    "static/media/weather-dashboard.png": "/craigliam-react-portfolio/static/media/weather-dashboard.290eca3000ca340a694f.png",
+    "static/media/weather-dashboard-ss.png": "/craigliam-react-portfolio/static/media/weather-dashboard-ss.98e2938e6439e2f54696.png",
+    "static/media/speakeasy-ss.png": "/craigliam-react-portfolio/static/media/speakeasy-ss.e0d136023181a5932011.png",
     "static/media/my-profile-photo.jpg": "/craigliam-react-portfolio/static/media/my-profile-photo.79e9e32788dc4d16e663.jpg",
-    "static/media/speakeasy.jpg": "/craigliam-react-portfolio/static/media/speakeasy.9ed42c0e6957af6b3fe4.jpg",
-    "static/media/mtg.jpg": "/craigliam-react-portfolio/static/media/mtg.e11cc9aa0014f92b6aae.jpg",
-    "static/media/coding-quiz.jpg": "/craigliam-react-portfolio/static/media/coding-quiz.3cbdae966c36892c1dfc.jpg",
+    "static/media/mtg-ss.png": "/craigliam-react-portfolio/static/media/mtg-ss.a2306c0321008e4da702.png",
+    "static/media/password-generator-ss.png": "/craigliam-react-portfolio/static/media/password-generator-ss.5552767389e53d8fa099.png",
+    "static/media/outta-touch-ss.png": "/craigliam-react-portfolio/static/media/outta-touch-ss.e46732873f91d1843318.png",
     "static/media/current-resume.pdf": "/craigliam-react-portfolio/static/media/current-resume.19fa81f4a315e3055139.pdf",
-    "static/media/password-generator.jpg": "/craigliam-react-portfolio/static/media/password-generator.d470674be15c317bb5ec.jpg",
-    "static/media/work-day-scheduler.jpg": "/craigliam-react-portfolio/static/media/work-day-scheduler.995d03e1807db9777061.jpg",
+    "static/media/workday-scheduler-ss.png": "/craigliam-react-portfolio/static/media/workday-scheduler-ss.1ad50f14da46c36618b1.png",
     "index.html": "/craigliam-react-portfolio/index.html",
-    "main.00896e26.css.map": "/craigliam-react-portfolio/static/css/main.00896e26.css.map",
-    "main.943135b4.js.map": "/craigliam-react-portfolio/static/js/main.943135b4.js.map"
+    "main.3fe3d00e.css.map": "/craigliam-react-portfolio/static/css/main.3fe3d00e.css.map",
+    "main.6f3093ed.js.map": "/craigliam-react-portfolio/static/js/main.6f3093ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.00896e26.css",
-    "static/js/main.943135b4.js"
+    "static/css/main.3fe3d00e.css",
+    "static/js/main.6f3093ed.js"
   ]
 }
