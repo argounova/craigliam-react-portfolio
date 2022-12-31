@@ -4,24 +4,18 @@ import Image from '../../assets/images/my-profile-photo.jpg';
 
 const style = {
   card: {
-    background: 'linear-gradient(90deg, rgba(0,0,0,0.0) 0%, rgba(44,22,89,1) 58%, rgba(0,0,0,0.0) 100%)',
+    background: 'linear-gradient(90deg, rgba(0,0,0,0.0) 0%, rgba(44,22,89,1) 62%, rgba(0,0,0,0.0) 100%)',
     width: '50%',
     height: 'fit-content',
     marginLeft: '3%',
     marginTop: '3%',
     padding: '0.5%'
-  },
-  minHeight: {
-    display: 'flex',
-    flexDirection: 'column',
-    minHeight: '100vh'
   }
 };
 
 export default function Home() {
   return (
-    <section>
-      <div style={style.minHeight}>
+    <section className='homeDiv'>
       <div style={style.card}>
         <h1>Craig Putzstuck</h1>
         <h3>WEB DEVELOPER</h3>
@@ -36,7 +30,6 @@ export default function Home() {
             Originally from Colorado, I currently live off the western coast of Florida about an hour north of Tampa Bay. My partner and I enjoy exploring Florida, cooking and spending time with our pets. When I'm not in front of the computer, you can typically find me in the garage tinkering with one of my cars. I have a passion for motorsports and enjoy NASA track days at Sebring as often as time allows.
             </p>
         </div>
-      </div>
       </div>
     </section>
   );
