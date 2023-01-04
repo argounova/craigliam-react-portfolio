@@ -1,33 +1,24 @@
-import React, { useState } from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
+import React from 'react';
 import '../../assets/styles/Resume.css';
+import resume from '../../assets/docs/current-resume.pdf';
 
 
-export default function Resume(props) {
-  pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
 
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-    setPageNumber(1);
-  }
+export default function Resume() {
 
-  const { pdf } = props;
 
   return (
     <section>
       <div className="overlay">
         <h1>Resume</h1>
-          <div>
-            <Document 
-              file={pdf} 
-              onLoadSuccess={onDocumentLoadSuccess}>
-              <Page pageNumber={pageNumber}/>
-            </Document>
-            <p>
-              Page {pageNumber} of {numPages}
-            </p>
+          <div className='pdfDiv'>
+            <embed
+              src={resume}
+              width='100%'
+              height='100%'
+              type='application/pdf'
+              aria-label='resume'
+            />
           </div>
       </div>
     </section>

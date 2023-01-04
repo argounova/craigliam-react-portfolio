@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import resume from './assets/docs/current-resume.pdf';
 
 
 // Pages //
@@ -25,7 +24,7 @@ const App = () => {
         return <About />;
     }
     if (currentPage === 'Resume') {
-        return <Resume pdf={resume} />;
+        return <Resume />;
     }
     if (currentPage === 'Work') {
         return <Work />;
