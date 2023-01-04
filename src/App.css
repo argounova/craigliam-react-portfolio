@@ -1,0 +1,17 @@
+body {
+    background-image: url('../public/background-grad1.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Prosto One', cursive;
+    color: #c0c0c0;
+    text-shadow: 4px 1px 6px #000;
+}
+
+h3 {
+    font-family: 'Prosto One', cursive;
+    color: #c0c0c0;
+    text-shadow: 4px 1px 6px #000;
+}
