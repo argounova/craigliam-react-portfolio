@@ -11,7 +11,7 @@ import Screenshot6 from '../../assets/images/outta-touch-ss.png';
 function Work() {
   return (
     <section         
-      className='contentDiv'
+    className="overlay"
     >
       <h1>Recent Projects</h1>
       <div

@@ -6,7 +6,7 @@ import pdf from '../../assets/docs/current-resume.pdf';
 export default function Resume() {
   return (
     <section>
-      <div class="contentDiv">
+      <div className="overlay">
         <h1>Resume</h1>
           <div id="resume">
               <embed src={pdf} type="application/pdf"/>

@@ -71,7 +71,7 @@ function Inquire() {
         </Modal.Footer>
       </Modal>
 
-      <div class="contentDiv" style={style.align}>
+      <div className="overlay" style={style.align}>
           <h1>Contact Me</h1>
           <form className="form" class="contactCard" ref={form}>
             <input

@@ -2,23 +2,17 @@ import React from 'react';
 import '../../assets/styles/About.css';
 import Image from '../../assets/images/my-profile-photo.jpg';
 
-const style = {
-  para: {
-    padding: '2%'
-  }
-};
-
 export default function About() {
   return (
     <section>
-      <div class="contentDiv">
+      <div className="overlay">
         <h1>Craig Putzstuck</h1>
         <h3>MERN FULL STACK WEB DEVELOPER</h3>
         <div className="wrapText">
           <div>
-            <img src={Image} style={style.para} alt="profile"/>
+            <img src={Image} style={{paddingRight: '2%'}} alt="profile"/>
           </div>
-            <p style={style.para}>
+            <p >
               I have always maintained a curious mind and a desire to see projects through to fruition. While cars and racing have held my interests hostage for the most part, architecture, 3D modeling and wood working have also held sway. It was somewhat natural then to transition into web development as technology progressed and the realization that the architecture of the future lies in code. As an analytical individual planning and design are ingrained in my DNA which has allowed JavaScript to become a very rewarding aspect of my life.
             <br/>
             <br/>
