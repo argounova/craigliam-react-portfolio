@@ -39,3 +39,19 @@
     min-height: 100vh;
     height: fit-content;
 }
+
+@media screen and (max-width: 992px) {
+    .wrapText {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    h1, h3 {
+        text-align: center;
+    }
+
+    .wrapText img {
+        width: 33%;
+    }
+}

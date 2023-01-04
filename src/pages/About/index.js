@@ -8,11 +8,11 @@ export default function About() {
       <div className="overlay">
         <h1>Craig Putzstuck</h1>
         <h3>MERN FULL STACK WEB DEVELOPER</h3>
-        <div className="wrapText">
+        <div className="aboutText">
           <div>
             <img src={Image} style={{paddingRight: '2%'}} alt="profile"/>
           </div>
-            <p >
+            <p>
               I have always maintained a curious mind and a desire to see projects through to fruition. While cars and racing have held my interests hostage for the most part, architecture, 3D modeling and wood working have also held sway. It was somewhat natural then to transition into web development as technology progressed and the realization that the architecture of the future lies in code. As an analytical individual planning and design are ingrained in my DNA which has allowed JavaScript to become a very rewarding aspect of my life.
             <br/>
             <br/>
