@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/craigliam-react-portfolio/static/css/main.5141b3c2.css",
-    "main.js": "/craigliam-react-portfolio/static/js/main.2dbb8e49.js",
+    "main.js": "/craigliam-react-portfolio/static/js/main.faab4f4f.js",
     "static/media/background-grad1.jpg": "/craigliam-react-portfolio/static/media/background-grad1.c581d2d75b86e4634c6e.jpg",
     "static/media/weather-dashboard-ss.png": "/craigliam-react-portfolio/static/media/weather-dashboard-ss.98e2938e6439e2f54696.png",
     "static/media/my-profile-photo-bw.jpg": "/craigliam-react-portfolio/static/media/my-profile-photo-bw.66683e477ff161d51ae8.jpg",
@@ -14,10 +14,10 @@
     "static/media/current-resume.pdf": "/craigliam-react-portfolio/static/media/current-resume.135d961fea1ddf6a4a42.pdf",
     "index.html": "/craigliam-react-portfolio/index.html",
     "main.5141b3c2.css.map": "/craigliam-react-portfolio/static/css/main.5141b3c2.css.map",
-    "main.2dbb8e49.js.map": "/craigliam-react-portfolio/static/js/main.2dbb8e49.js.map"
+    "main.faab4f4f.js.map": "/craigliam-react-portfolio/static/js/main.faab4f4f.js.map"
   },
   "entrypoints": [
     "static/css/main.5141b3c2.css",
-    "static/js/main.2dbb8e49.js"
+    "static/js/main.faab4f4f.js"
   ]
 }
