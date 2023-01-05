@@ -7,7 +7,10 @@ import '../assets/styles/Navbar.css';
 function navbar({ __, handlePageChange }) {
   return (
     <header>
-      <Navbar collapseOnSelect expand="sm">
+      <Navbar 
+        collapseOnSelect expand="sm"
+        variant="dark"
+      >
         <Container fluid>
           <Navbar.Brand 
             style={{ 
