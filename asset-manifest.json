@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/craigliam-react-portfolio/static/css/main.5141b3c2.css",
-    "main.js": "/craigliam-react-portfolio/static/js/main.faab4f4f.js",
+    "main.css": "/craigliam-react-portfolio/static/css/main.9f25b2ab.css",
+    "main.js": "/craigliam-react-portfolio/static/js/main.c2de0b93.js",
     "static/media/background-grad1.jpg": "/craigliam-react-portfolio/static/media/background-grad1.c581d2d75b86e4634c6e.jpg",
+    "static/media/day-planner-ss.png": "/craigliam-react-portfolio/static/media/day-planner-ss.2e55f6314c6aaa050f21.png",
     "static/media/weather-dashboard-ss.png": "/craigliam-react-portfolio/static/media/weather-dashboard-ss.98e2938e6439e2f54696.png",
     "static/media/my-profile-photo-bw.jpg": "/craigliam-react-portfolio/static/media/my-profile-photo-bw.66683e477ff161d51ae8.jpg",
     "static/media/speakeasy-ss.png": "/craigliam-react-portfolio/static/media/speakeasy-ss.e0d136023181a5932011.png",
@@ -10,14 +11,13 @@
     "static/media/mtg-ss.png": "/craigliam-react-portfolio/static/media/mtg-ss.a2306c0321008e4da702.png",
     "static/media/password-generator-ss.png": "/craigliam-react-portfolio/static/media/password-generator-ss.5552767389e53d8fa099.png",
     "static/media/outta-touch-ss.png": "/craigliam-react-portfolio/static/media/outta-touch-ss.e46732873f91d1843318.png",
-    "static/media/workday-scheduler-ss.png": "/craigliam-react-portfolio/static/media/workday-scheduler-ss.1ad50f14da46c36618b1.png",
     "static/media/current-resume.pdf": "/craigliam-react-portfolio/static/media/current-resume.135d961fea1ddf6a4a42.pdf",
     "index.html": "/craigliam-react-portfolio/index.html",
-    "main.5141b3c2.css.map": "/craigliam-react-portfolio/static/css/main.5141b3c2.css.map",
-    "main.faab4f4f.js.map": "/craigliam-react-portfolio/static/js/main.faab4f4f.js.map"
+    "main.9f25b2ab.css.map": "/craigliam-react-portfolio/static/css/main.9f25b2ab.css.map",
+    "main.c2de0b93.js.map": "/craigliam-react-portfolio/static/js/main.c2de0b93.js.map"
   },
   "entrypoints": [
-    "static/css/main.5141b3c2.css",
-    "static/js/main.faab4f4f.js"
+    "static/css/main.9f25b2ab.css",
+    "static/js/main.c2de0b93.js"
   ]
 }
