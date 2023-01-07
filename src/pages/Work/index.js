@@ -5,7 +5,7 @@ import Screenshot1 from '../../assets/images/weather-dashboard-ss.png';
 import Screenshot2 from '../../assets/images/mtg-ss.png';
 import Screenshot3 from '../../assets/images/speakeasy-ss.png';
 import Screenshot4 from '../../assets/images/password-generator-ss.png';
-import Screenshot5 from '../../assets/images/workday-scheduler-ss.png';
+import Screenshot5 from '../../assets/images/day-planner-ss.png';
 import Screenshot6 from '../../assets/images/outta-touch-ss.png';
 
 function Work() {

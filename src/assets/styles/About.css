@@ -47,4 +47,8 @@
     .aboutText img {
         width: 33%;
     }
+
+    .aboutText p {
+        font-size: 1rem;
+    }
 }

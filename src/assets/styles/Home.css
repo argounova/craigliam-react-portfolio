@@ -54,4 +54,8 @@
     .wrapText img {
         width: 33%;
     }
+
+    .wrapText p {
+        font-size: 1rem;
+    }
 }
