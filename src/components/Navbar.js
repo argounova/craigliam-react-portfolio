@@ -14,11 +14,11 @@ function navbar({ __, handlePageChange }) {
         <Container fluid>
           <Navbar.Brand 
             style={{ 
-              color: '#04BFAD',
-              fontSize: '30px'  
+              color: '#03A6A6',
+              fontSize: '20px'  
             }} 
             onClick={() => handlePageChange('Home')}
-            href="#home">CP | DEV</Navbar.Brand>
+            href="#home">CRAIG PUTZSTUCK</Navbar.Brand>
           <Navbar.Toggle aria-controls="toggle-nav"/>
           <Navbar.Collapse 
             className="justify-content-end"
@@ -26,19 +26,19 @@ function navbar({ __, handlePageChange }) {
           >
               <Nav activeKey={'#home'}>
                 <Nav.Link
-                  style={{ color: '#04BFAD' }}
+                  style={{ color: '#03A6A6' }}
                   onClick={() => handlePageChange('Work')} 
                   eventKey="#work">Work</Nav.Link>
                 <Nav.Link
-                  style={{ color: '#04BFAD' }}
+                  style={{ color: '#03A6A6' }}
                   onClick={() => handlePageChange('About')} 
                   eventKey="#about">About</Nav.Link>
                 <Nav.Link
-                  style={{ color: '#04BFAD' }}
+                  style={{ color: '#03A6A6' }}
                   onClick={() => handlePageChange('Resume')}
                   eventKey="#resume">Resume</Nav.Link>
                 <Nav.Link
-                  style={{ color: '#04BFAD' }} 
+                  style={{ color: '#03A6A6' }} 
                   onClick={() => handlePageChange('Inquire')}
                   eventKey="#inquire">Inquire</Nav.Link>
               </Nav>
