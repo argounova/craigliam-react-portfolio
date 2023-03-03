@@ -6,7 +6,7 @@ export default function Home() {
     <section className='overlay'>
           <div className="wrapText">
             <p className='largeHeading'>CRAIG PUTZSTUCK</p>
-            <p className='smallHeading'>FRONT END DESIGNER & FULL STACK DEVELOPER</p>
+            <p className='smallHeading'>FRONT END DESIGNER and FULL STACK DEVELOPER</p>
           </div>
     </section>
   );
