@@ -1,8 +1,15 @@
+.inquire-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    padding: 2% 0px;
+}
+
 input {
     width: 90%;
     height: 50px;
-    border: #080C26 solid 2px;
-    border-radius: 5px;
 }
 
 button {
@@ -12,8 +19,6 @@ button {
 textarea {
     width: 90%;
     height: 100px;
-    border: #080C26 solid 2px;
-    border-radius: 5px;
 }
 
 .contactCard {
@@ -22,9 +27,6 @@ textarea {
     justify-content: center;
     align-items: center;
     align-content: space-evenly;
-    background-color: #000;
-    border: #080C26 solid 4px;
-    border-radius: 1px;
     width: 50%;
     height: 400px;
 }

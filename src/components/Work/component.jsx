@@ -11,103 +11,97 @@ import Screenshot6 from '../../assets/images/outta-touch-ss.png';
 
 function Work() {
   return (
-    <section         
-    className="overlay"
-    >
-      <h1 id='work'>Recent Projects</h1>
-      <div
-        style={{ margin: '1% auto', width: '90%' }}
+    <div className='work-section'>
+      <Carousel
+        id='work' 
+        fade
+        style={{ borderTop: 'solid #000 5px' }}
       >
-        <Carousel 
-          fade
-          style={{ borderTop: 'solid #000 5px' }}
-        >
-          <Carousel.Item>
-            <a href='https://outta-touch.herokuapp.com/' target='_blank' rel='noreferrer'>
-              <img
-                className='d-block w-100'
-                src={Screenshot6}
-                alt='First slide - Outta Touch App'
-              />
+        <Carousel.Item>
+          <a href='https://outta-touch.herokuapp.com/' target='_blank' rel='noreferrer'>
+            <img
+              className='d-block w-100'
+              src={Screenshot6}
+              alt='First slide - Outta Touch App'
+            />
+          </a>
+          <Carousel.Caption>
+            <a href='https://github.com/argounova/outta-touch' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
+              <h2 style={{ color: '#04BFAD' }}>View GitHub Repository</h2>
             </a>
-            <Carousel.Caption>
-              <a href='https://github.com/argounova/outta-touch' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
-                <h2 style={{ color: '#04BFAD' }}>View GitHub Repository</h2>
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <a href="https://argounova.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
-              <img
-                className='d-block w-100'
-                src={Screenshot1}
-                alt='Second slide - Weather Dashboard'
-              />
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href="https://argounova.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
+            <img
+              className='d-block w-100'
+              src={Screenshot1}
+              alt='Second slide - Weather Dashboard'
+            />
+          </a>
+          <Carousel.Caption>
+            <a href="https://github.com/argounova/weather-dashboard" target="_blank" rel="noreferrer" style={{ textDecorationLine: 'none' }}>
+              <h2 style={{ color: '#04BFAD' }}>View GitHub Repository</h2>
             </a>
-            <Carousel.Caption>
-              <a href="https://github.com/argounova/weather-dashboard" target="_blank" rel="noreferrer" style={{ textDecorationLine: 'none' }}>
-                <h2 style={{ color: '#04BFAD' }}>View GitHub Repository</h2>
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <a href="https://peaceful-escarpment-11973.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img
-                className='d-block w-100'
-                src={Screenshot2}
-                alt='Third slide - Magic the Gathering Deck Creation'
-              />
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href="https://peaceful-escarpment-11973.herokuapp.com/" target="_blank" rel="noreferrer">
+            <img
+              className='d-block w-100'
+              src={Screenshot2}
+              alt='Third slide - Magic the Gathering Deck Creation'
+            />
+          </a>
+          <Carousel.Caption>
+            <a href='https://github.com/HammontreeWebDev/MTGpp' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
+              <h2 style={{ color: '#04BFAD'}}>View GitHub Repository</h2>
             </a>
-            <Carousel.Caption>
-              <a href='https://github.com/HammontreeWebDev/MTGpp' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
-                <h2 style={{ color: '#04BFAD'}}>View GitHub Repository</h2>
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <a href='https://argounova.github.io/password-generator/' target='_blank' rel='noreferrer'>
-              <img
-                className='d-block w-100'
-                src={Screenshot4}
-                alt='Fourth slide - Password Generator'
-              />
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href='https://argounova.github.io/password-generator/' target='_blank' rel='noreferrer'>
+            <img
+              className='d-block w-100'
+              src={Screenshot4}
+              alt='Fourth slide - Password Generator'
+            />
+          </a>
+          <Carousel.Caption>
+            <a href='https://github.com/argounova/password-generator' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
+              <h2 style={{ color: '#04BFAD'}}>View GitHub Repository</h2>
             </a>
-            <Carousel.Caption>
-              <a href='https://github.com/argounova/password-generator' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
-                <h2 style={{ color: '#04BFAD'}}>View GitHub Repository</h2>
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <a href='https://jkanvision.github.io/The-SpeakEasy-Project/search.html' target='_blank' rel='noreferrer'>
-              <img
-                className='d-block w-100'
-                src={Screenshot3}
-                alt='Fifth slide - The Speakeasy Project Drink API'
-              />
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href='https://jkanvision.github.io/The-SpeakEasy-Project/search.html' target='_blank' rel='noreferrer'>
+            <img
+              className='d-block w-100'
+              src={Screenshot3}
+              alt='Fifth slide - The Speakeasy Project Drink API'
+            />
+          </a>
+          <Carousel.Caption>
+            <a href='https://github.com/jkanvision/The-SpeakEasy-Project' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
+              <h2 style={{ color: '#04BFAD'}}>View GitHub Repository</h2>
             </a>
-            <Carousel.Caption>
-              <a href='https://github.com/jkanvision/The-SpeakEasy-Project' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
-                <h2 style={{ color: '#04BFAD'}}>View GitHub Repository</h2>
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <a href='https://argounova.github.io/day-planner/' target='_blank' rel='noreferrer'>
-              <img
-                className='d-block w-100'
-                src={Screenshot5}
-                alt='Sixth slide - Day Planner'
-              />
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href='https://argounova.github.io/day-planner/' target='_blank' rel='noreferrer'>
+            <img
+              className='d-block w-100'
+              src={Screenshot5}
+              alt='Sixth slide - Day Planner'
+            />
+          </a>
+          <Carousel.Caption>
+            <a href='https://github.com/argounova/day-planner' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
+              <h2 style={{ color: '#04BFAD'}}>View GitHub Repository</h2>
             </a>
-            <Carousel.Caption>
-              <a href='https://github.com/argounova/day-planner' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
-                <h2 style={{ color: '#04BFAD'}}>View GitHub Repository</h2>
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
       <HashLink
       to='#'
       style={{ 
@@ -117,7 +111,7 @@ function Work() {
       >
       TOP
       </HashLink>
-    </section>
+    </div>
   );
 }
 

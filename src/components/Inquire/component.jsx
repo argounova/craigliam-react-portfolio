@@ -7,12 +7,6 @@ import { validateEmail } from '../../utils/helpers';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
-const style = {
-  align: {
-    paddingTop: '5%'
-  }
-}
-
 function Inquire() {
   const [formName, setFormName] = useState('');
   const [formEmail, setFormEmail] = useState('');
@@ -56,7 +50,7 @@ function Inquire() {
   const handleClose = () => setShow(false);
 
   return (
-    <section>
+    <div className='inquire-section'>
 
       <Modal
         show={show} 
@@ -73,9 +67,8 @@ function Inquire() {
         </Modal.Footer>
       </Modal>
 
-      <div className="overlay" style={style.align}>
-          <h1 id='inquire'>Contact Me</h1>
-          <form className="form" class="contactCard" ref={form}>
+          <h3>Inquire</h3>
+          <form id='inquire' className="contactCard form" ref={form}>
             <input
               value={formName}
               name="from_name"
@@ -104,7 +97,6 @@ function Inquire() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-      </div>
       <HashLink
       to='#'
       style={{ 
@@ -114,7 +106,7 @@ function Inquire() {
       >
       TOP
       </HashLink>
-    </section>
+    </div>
   );
 }
 

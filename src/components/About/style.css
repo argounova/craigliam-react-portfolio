@@ -1,3 +1,12 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+    padding-top: 2%;
+}
+
 .aboutText {
     width: 75%;
     height: fit-content;
@@ -12,7 +21,7 @@
 .aboutText p {
     text-align: justify;
     font-size: 1.5rem;
-    color: #c0c0c0;
+    color: var(--fontgray);
 }
 
 @media screen and (max-width: 992px) {

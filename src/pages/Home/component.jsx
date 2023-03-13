@@ -14,14 +14,14 @@ export default function Home() {
   }, []);
 
   return (
-      <section className='overlay'>
-        <div className="wrapText">
-          <p className='largeHeading'>CRAIG PUTZSTUCK</p>
-          <p className='smallHeading'>FRONT END DESIGNER and FULL STACK DEVELOPER</p>
-        </div>
-        <Work />
-        <About />
-        <Inquire />
-      </section>
+    <>
+      <div className="wrapText">
+        <p className='largeHeading'>CRAIG PUTZSTUCK</p>
+        <p className='smallHeading'>front end design & full stack development</p>
+      </div>
+      <Work />
+      <About />
+      <Inquire />
+    </>
   );
 }
