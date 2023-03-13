@@ -1,5 +1,7 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import emailjs from '@emailjs/browser';
 import './style.css';
@@ -8,6 +10,10 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
 function Inquire() {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+  
   const [formName, setFormName] = useState('');
   const [formEmail, setFormEmail] = useState('');
   const [formMessage, setFormMessage] = useState('');
@@ -67,8 +73,22 @@ function Inquire() {
         </Modal.Footer>
       </Modal>
 
-          <h3>Inquire</h3>
-          <form id='inquire' className="contactCard form" ref={form}>
+          <h3 
+            id='inquire'
+            data-aos="zoom-in-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >Inquire</h3>
+          <form 
+            data-aos="zoom-in-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="contactCard form" 
+            ref={form}>
             <input
               value={formName}
               name="from_name"

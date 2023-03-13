@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { HashLink } from 'react-router-hash-link';
 import Carousel from 'react-bootstrap/Carousel';
 import './style.css';
@@ -10,8 +12,18 @@ import Screenshot5 from '../../assets/images/day-planner-ss.png';
 import Screenshot6 from '../../assets/images/outta-touch-ss.png';
 
 function Work() {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
-    <div className='work-section'>
+    <div 
+      data-aos="fade"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      className='work-section'>
       <Carousel
         id='work' 
         fade
