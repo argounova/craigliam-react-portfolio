@@ -4,9 +4,4 @@
     justify-content: center;
     align-items: center;
     background-color: var(--black);
-    width: 100%;
-}
-
-.work-row {
-    background-color: var(--color17);
 }
