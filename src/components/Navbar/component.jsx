@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import '../assets/styles/Navbar.css';
+import './style.css';
 
 function navbar({ __, handlePageChange }) {
   return (

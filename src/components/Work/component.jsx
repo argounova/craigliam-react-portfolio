@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import '../../assets/styles/Work.css';
+import './style.css';
 import Screenshot1 from '../../assets/images/weather-dashboard-ss.png';
 import Screenshot2 from '../../assets/images/mtg-ss.png';
 import Screenshot3 from '../../assets/images/speakeasy-ss.png';

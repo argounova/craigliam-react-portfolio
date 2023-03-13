@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import '../../assets/styles/Inquire.css';
+import './style.css';
 import { validateEmail } from '../../utils/helpers';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
