@@ -7,7 +7,6 @@ import './App.css';
 import Home from './pages/Home/component';
 
 // Components //
-import Navigation from './components/Navbar/component';
 import Footer from './components/Footer/component';
 import Work from './components/Work/component';
 import About from './components/About/component';
@@ -17,7 +16,6 @@ const App = () => {
     return (
         <>
             <Router>
-                <Navigation/>
                     <Routes>
                         <Route
                             path="/"

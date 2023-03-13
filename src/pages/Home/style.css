@@ -12,9 +12,23 @@ body {
     min-height: 100vh;
 }
 
+.custom-backdrop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(38,38,38,1) 15%, rgba(0,0,0,1) 20%, rgba(38,38,38,1) 25%, rgba(64,64,64,1) 35%, rgba(173,255,255,1) 50%, rgba(64,64,64,1) 65%, rgba(38,38,38,1) 75%, rgba(0,0,0,1) 80%, rgba(38,38,38,1) 85%);
+    border-radius: 100px;
+    height: 1000px;
+    width: 100%;
+}
+
 .smallHeading {
     text-align: center;
-    font-size: 1.8rem;
+    font-family: 'Prosto One', cursive;
+    font-size: 1.5rem;
     color: var(--color4);
 }
 
@@ -23,25 +37,38 @@ body {
     font-family: 'Prosto One', cursive;
     font-size: 5rem;
     color: var(--color6);
-    margin-bottom: -30px;
+    margin-bottom: -10px;
 }
 
-@media screen and (max-width: 992px) {
-    .wrapText {
-        width: 100%;
+@media screen and (max-width: 1604px) {
+    .largeHeading {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1149px) {
+    .largeHeading {
+        font-size: 3rem;
+    }
+
+    .smallHeading {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 857px) {
+    .smallHeading {
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 575px) {
-    h1, h3 {
-        text-align: center;
+    .largeHeading {
+        font-size: 2rem;
+        margin-bottom: 0px;
     }
 
-    .wrapText img {
-        width: 33%;
-    }
-
-    .wrapText p {
-        font-size: 1rem;
+    .smallHeading {
+        font-size: 0.9rem;
     }
 }

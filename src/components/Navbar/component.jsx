@@ -21,13 +21,13 @@ function Navigation() {
             <Nav>
               <NavHashLink
                 style={{ color: '#03A6A6', textDecoration: 'none', padding: '8px' }}
-                smooth to='#work'>Work</NavHashLink>
+                smooth to='#work'>work</NavHashLink>
               <NavHashLink
                 style={{ color: '#03A6A6', textDecoration: 'none', padding: '8px' }}
-                smooth to='#about'>About</NavHashLink>
+                smooth to='#about'>about</NavHashLink>
               <NavHashLink
                 style={{ color: '#03A6A6', textDecoration: 'none', padding: '8px' }}
-                smooth to='#inquire'>Inquire</NavHashLink>
+                smooth to='#inquire'>inquire</NavHashLink>
             </Nav>
         </Navbar.Collapse>
       </Container>
