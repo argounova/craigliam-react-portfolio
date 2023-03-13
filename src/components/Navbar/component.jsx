@@ -1,10 +1,11 @@
 import React from 'react';
+import { NavHashLink, HashLink } from 'react-router-hash-link';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './style.css';
 
-function navbar({ __, handlePageChange }) {
+function Navigation() {
   return (
     <header>
       <Navbar 
@@ -12,35 +13,34 @@ function navbar({ __, handlePageChange }) {
         variant="dark"
       >
         <Container fluid>
-          <Navbar.Brand 
-            style={{ 
-              color: '#03A6A6',
-              fontSize: '20px'  
-            }} 
-            onClick={() => handlePageChange('Home')}
-            href="#home">CRAIG PUTZSTUCK</Navbar.Brand>
+          <Navbar.Brand  
+            >
+              <HashLink
+              to='#'
+              style={{ 
+                color: '#03A6A6',
+                fontSize: '20px',
+                textDecoration: 'none'  
+              }}
+              >
+                CRAIG PUTZSTUCK
+              </HashLink>
+            </Navbar.Brand>
           <Navbar.Toggle aria-controls="toggle-nav"/>
           <Navbar.Collapse 
             className="justify-content-end"
             id="toggle-nav"
           >
               <Nav activeKey={'#home'}>
-                <Nav.Link
-                  style={{ color: '#03A6A6' }}
-                  onClick={() => handlePageChange('Work')} 
-                  eventKey="#work">Work</Nav.Link>
-                <Nav.Link
-                  style={{ color: '#03A6A6' }}
-                  onClick={() => handlePageChange('About')} 
-                  eventKey="#about">About</Nav.Link>
-                <Nav.Link
-                  style={{ color: '#03A6A6' }}
-                  onClick={() => handlePageChange('Resume')}
-                  eventKey="#resume">Resume</Nav.Link>
-                <Nav.Link
-                  style={{ color: '#03A6A6' }} 
-                  onClick={() => handlePageChange('Inquire')}
-                  eventKey="#inquire">Inquire</Nav.Link>
+                <NavHashLink
+                  style={{ color: '#03A6A6', textDecoration: 'none', padding: '8px' }}
+                  smooth to='#work'>Work</NavHashLink>
+                <NavHashLink
+                  style={{ color: '#03A6A6', textDecoration: 'none', padding: '8px' }}
+                  smooth to='#about'>About</NavHashLink>
+                <NavHashLink
+                  style={{ color: '#03A6A6', textDecoration: 'none', padding: '8px' }}
+                  smooth to='#inquire'>Inquire</NavHashLink>
               </Nav>
           </Navbar.Collapse>
         </Container>
@@ -49,4 +49,4 @@ function navbar({ __, handlePageChange }) {
   );
 }
 
-export default navbar;
+export default Navigation;

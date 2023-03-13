@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import './style.css';
 import Image from '../../assets/images/my-profile-photo.jpg';
 
@@ -6,7 +7,7 @@ export default function About() {
   return (
     <section>
       <div className="overlay">
-        <h1>Craig Putzstuck</h1>
+        <h1 id='about'>Craig Putzstuck</h1>
         <h3>MERN FULL STACK WEB DEVELOPER</h3>
         <div className="aboutText">
           <div>
@@ -23,6 +24,15 @@ export default function About() {
             </p>
           </div>
         </div>
+        <HashLink
+        to='#'
+        style={{ 
+          color: '#03A6A6',
+          fontSize: '20px'
+        }}
+        >
+        TOP
+        </HashLink>
     </section>
   );
 }

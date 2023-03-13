@@ -1,4 +1,6 @@
 import React, { useState, useRef } from 'react';
+import { HashLink } from 'react-router-hash-link';
+
 import emailjs from '@emailjs/browser';
 import './style.css';
 import { validateEmail } from '../../utils/helpers';
@@ -72,7 +74,7 @@ function Inquire() {
       </Modal>
 
       <div className="overlay" style={style.align}>
-          <h1>Contact Me</h1>
+          <h1 id='inquire'>Contact Me</h1>
           <form className="form" class="contactCard" ref={form}>
             <input
               value={formName}
@@ -103,6 +105,15 @@ function Inquire() {
             </div>
           )}
       </div>
+      <HashLink
+      to='#'
+      style={{ 
+        color: '#03A6A6',
+        fontSize: '20px'
+      }}
+      >
+      TOP
+      </HashLink>
     </section>
   );
 }

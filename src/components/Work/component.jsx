@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Carousel from 'react-bootstrap/Carousel';
 import './style.css';
 import Screenshot1 from '../../assets/images/weather-dashboard-ss.png';
@@ -13,7 +14,7 @@ function Work() {
     <section         
     className="overlay"
     >
-      <h1>Recent Projects</h1>
+      <h1 id='work'>Recent Projects</h1>
       <div
         style={{ margin: '1% auto', width: '90%' }}
       >
@@ -107,6 +108,15 @@ function Work() {
           </Carousel.Item>
         </Carousel>
       </div>
+      <HashLink
+      to='#'
+      style={{ 
+        color: '#03A6A6',
+        fontSize: '20px'
+      }}
+      >
+      TOP
+      </HashLink>
     </section>
   );
 }
