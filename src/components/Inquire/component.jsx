@@ -80,6 +80,7 @@ function Inquire() {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
+            style={{ fontSize: '2vw' }}
           >Inquire</h3>
           <form 
             data-aos="zoom-in-up"
@@ -121,7 +122,7 @@ function Inquire() {
       to='#'
       style={{ 
         color: '#03A6A6',
-        fontSize: '20px'
+        fontSize: '1.5vw'
       }}
       >
       TOP

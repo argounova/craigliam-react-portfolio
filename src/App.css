@@ -14,11 +14,14 @@
 }
 
 h1 {
+    font-size: 2.75vw;
     font-family: 'Prosto One', cursive;
     color: var(--color6);
+    text-align: center;
 }
 
 h3 {
+    font-size: 1.5vw;
     font-family: 'Prosto One', cursive;
     color: var(--color4);
 }

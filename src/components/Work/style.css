@@ -10,3 +10,56 @@
 .work-row {
     background-color: var(--color17);
 }
+
+.stack-description {
+    display: flex;
+    align-items: center;
+}
+
+.stack-description h1 {
+    color: var(--black);
+}
+
+.stack-description h2 {
+    color: var(--color6);
+    text-decoration: underline;
+    font-family: 'Prosto One';
+    font-size: 1.5vw;
+}
+
+.stack-description h3 {
+    color: var(--color1);
+}
+
+.stack-description p {
+    text-align: center;
+    font-size: 1vw;
+}
+
+.stack-description ul {
+    list-style-type: none;
+}
+
+.stack-description ul li {
+    color: var(--color1);
+    font-family: 'Prosto One';
+    font-size: 1.1vw;
+}
+
+.stack-description ul li i {
+    color: var(--color6);
+}
+
+@media screen and (max-width: 767px) {
+    #reverseRow {
+        flex-direction: column-reverse;
+    }
+
+    .stack-description p {
+        font-size: 1.5vw;
+    }
+
+    .stack-description ul li {
+        font-size: 1.6vw;
+    }
+}
