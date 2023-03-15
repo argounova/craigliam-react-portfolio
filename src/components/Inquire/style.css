@@ -41,4 +41,8 @@ textarea {
     .contactCard {
         width: 80%;
     }
+
+    #inquire {
+        font-size: 1.2rem;
+    }
 }

@@ -76,15 +76,12 @@ function Inquire() {
           <h3 
             id='inquire'
             data-aos="zoom-in-up"
-            data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            style={{ fontSize: '2vw' }}
           >Inquire</h3>
           <form 
             data-aos="zoom-in-up"
-            data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -122,7 +119,6 @@ function Inquire() {
       to='#'
       style={{ 
         color: '#03A6A6',
-        fontSize: '1.5vw'
       }}
       >
       TOP

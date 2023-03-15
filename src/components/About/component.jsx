@@ -15,8 +15,7 @@ export default function About() {
         <div className="aboutText">
           <div>
             <img 
-            data-aos="fade-right"
-            data-aos-offset="200"
+            data-aos="zoom-in-up"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -25,8 +24,7 @@ export default function About() {
             alt="profile"/>
           </div>
             <p 
-            data-aos="fade-left"
-            data-aos-offset="200"
+            data-aos="zoom-in-down"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"

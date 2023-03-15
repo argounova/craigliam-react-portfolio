@@ -19,8 +19,7 @@ function Work() {
   return (
     <div id='work' className='work-section'>
       <Row 
-        data-aos="fade-left"
-        data-aos-offset="200"
+        data-aos="zoom-in-up"
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
@@ -35,21 +34,21 @@ function Work() {
             />
           </a>
         </Col>
-        <Col className='p-3'>
+        <Col>
         <Stack className='stack-description'>
             <h1>Outta Touch</h1>
-            <AiOutlineDeploymentUnit style={{ color: '#adffff', fontSize: '1.75vw' }}/>
-            <p style={{ color: '#adffff', fontWeight: 'bold', marginBottom: '-1px' }}>Status: DEPLOYED</p>
-            <p style={{ fontSize: '0.9vw' }}>(Click on image to view live application)</p>
+            <AiOutlineDeploymentUnit className='stack-description-icon'/>
+            <p className='stack-description-status'>Status: DEPLOYED</p>
+            <p className='stack-description-status-sub'>(Click on image to view live application)</p>
             <h3>Instant Messaging Application</h3>
-            <p>Highlighted by a retro 90's livery, this locally installable application utilizes web socket technology to create a real time messenger service.</p>
+            <p className='stack-description-desc'>Highlighted by a retro 90's livery, this locally installable application utilizes web socket technology to create a real time messenger service.</p>
             <ul>
               <li><i><GiWrench /></i>React front-end</li>
               <li><i><GiWrench /></i>Apollo server</li>
               <li><i><GiWrench /></i>GraphQL</li>
               <li><i><GiWrench /></i>MongoDB database</li>
             </ul>
-            <p>Other features include the ability to create an account, login and set up various chat rooms as well as invite other users.</p>
+            <p className='stack-description-desc'>Other features include the ability to create an account, login and set up various chat rooms as well as invite other users.</p>
           <a href='https://github.com/argounova/outta-touch' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
             <h2>View on GitHub</h2>
           </a>
@@ -57,29 +56,28 @@ function Work() {
         </Col>
       </Row>
       <Row
-        data-aos="fade-right"
-        data-aos-offset="200"
+        data-aos="zoom-in"
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
         className='work-row p-0 g-0'
         id='reverseRow'  
       >    
-        <Col className='p-3'>
+        <Col>
         <Stack className='stack-description'>
             <h1>Weather Dashboard</h1>
-            <AiOutlineDeploymentUnit style={{ color: '#adffff', fontSize: '1.75vw' }}/>
-            <p style={{ color: '#adffff', fontWeight: 'bold', marginBottom: '-1px' }}>Status: DEPLOYED</p>
-            <p style={{ fontSize: '0.9vw' }}>(Click on image to view live application)</p>
+            <AiOutlineDeploymentUnit className='stack-description-icon'/>
+            <p className='stack-description-status'>Status: DEPLOYED</p>
+            <p className='stack-description-status-sub'>(Click on image to view live application)</p>
             <h3>5-Day Weather Forecast</h3>
-            <p>Sourcing its data via the OpenWeather API, this 5-day forecast app allows multiple searches and real-time data.</p>
+            <p className='stack-description-desc'>Sourcing its data via the OpenWeather API, this 5-day forecast app allows multiple searches and real-time data.</p>
             <ul>
               <li><i><GiWrench /></i>OpenWeather 3rd-party API</li>
               <li><i><GiWrench /></i>Client-side storage</li>
               <li><i><GiWrench /></i>Responsive</li>
               <li><i><GiWrench /></i>Bootstrap framework</li>
             </ul>
-            <p>Recent searches are saved in the browser and users can search by city name or zip code.</p>
+            <p className='stack-description-desc'>Recent searches are saved in the browser and users can search by city name or zip code.</p>
             <a href="https://github.com/argounova/weather-dashboard" target="_blank" rel="noreferrer" style={{ textDecorationLine: 'none' }}>
             <h2>View on GitHub</h2>
             </a>
@@ -96,8 +94,7 @@ function Work() {
         </Col>
       </Row>
       <Row
-        data-aos="fade-up"
-        data-aos-offset="200"
+        data-aos="zoom-in-down"
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
@@ -112,21 +109,21 @@ function Work() {
             />
           </a>
         </Col>
-        <Col className='p-3'>
+        <Col>
         <Stack className='stack-description'>
             <h1>Magic: the Gathering</h1>
-            <AiOutlineDeploymentUnit style={{ color: '#adffff', fontSize: '1.75vw' }}/>
-            <p style={{ color: '#adffff', fontWeight: 'bold', marginBottom: '-1px' }}>Status: DEPLOYED</p>
-            <p style={{ fontSize: '0.9vw' }}>(Click on image to view live application)</p>
+            <AiOutlineDeploymentUnit className='stack-description-icon'/>
+            <p className='stack-description-status'>Status: DEPLOYED</p>
+            <p className='stack-description-status-sub'>(Click on image to view live application)</p>
             <h3>Deck List Creation</h3>
-            <p>Create an account, login, and start building multiple decks from a daily-updated SDK.  Save, edit, and delete as many decks as you wish.</p>
+            <p className='stack-description-desc'>Create an account, login, and start building multiple decks from a daily-updated SDK.  Save, edit, and delete as many decks as you wish.</p>
             <ul>
               <li><i><GiWrench /></i>Full CRUD operations</li>
               <li><i><GiWrench /></i>MySQL database</li>
               <li><i><GiWrench /></i>JWT Authentication</li>
               <li><i><GiWrench /></i>Handlebars front end</li>
             </ul>
-            <p>The Scryfall SDK is the real star here.  This web application also boasts auto-complete and dynamic element creation.</p>
+            <p className='stack-description-desc'>The Scryfall SDK is the real star here.  This web application also boasts auto-complete and dynamic element creation.</p>
         <a href='https://github.com/HammontreeWebDev/MTGpp' target='_blank' rel='noreferrer' style={{ textDecorationLine: 'none' }}>
               <h2>View on GitHub</h2>
             </a>

@@ -20,6 +20,17 @@
     color: var(--black);
 }
 
+.stack-description-icon {
+    color: var(--color6);
+    font-size: 1.75vw;
+}
+
+.stack-description-status {
+    color: var(--color6);
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
 .stack-description h2 {
     color: var(--color6);
     text-decoration: underline;
@@ -31,9 +42,8 @@
     color: var(--color1);
 }
 
-.stack-description p {
+.stack-description-desc {
     text-align: center;
-    font-size: 1vw;
 }
 
 .stack-description ul {
@@ -43,7 +53,6 @@
 .stack-description ul li {
     color: var(--color1);
     font-family: 'Prosto One';
-    font-size: 1.1vw;
 }
 
 .stack-description ul li i {
@@ -54,12 +63,26 @@
     #reverseRow {
         flex-direction: column-reverse;
     }
+}
 
-    .stack-description p {
-        font-size: 1.5vw;
+@media screen and (max-width: 575px) {
+    .stack-description h1 {
+        font-size: 1.8rem;
     }
 
-    .stack-description ul li {
-        font-size: 1.6vw;
+    .stack-description-icon {
+    font-size: 2rem;
+    }
+
+    .stack-description-status {
+        font-size: 1.2rem;
+    }
+
+    .stack-description h3 {
+        font-size: 1.3rem;
+    }
+
+    .stack-description h2 {
+        font-size: 1.2rem;
     }
 }
