@@ -41,7 +41,7 @@ function Inquire() {
       setErrorMessage('Valid email and/or name required!');
       return;
     }
-
+    console.log(form.current);
     emailjs.sendForm('service_peaz7nq', 'template_iuipk7c', form.current, 'ZElOBNy_cU2ZofiP0');
 
     // alert(`Thanks for reaching out ${formName}! Please allow 1-2 business days for a response.`);
